@@ -1,7 +1,9 @@
+import Sidebar from "./components/Sidebar";
+
 function App() {
   return (
-    <div className="App">
-      This is the Social Media Downloader Website.
+    <div className="bg-[#f5f3f3]">
+      <Sidebar />
     </div>
   );
 }
